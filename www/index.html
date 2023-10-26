@@ -225,6 +225,12 @@
             active = false;
             alarm();
           }
+          if(rest <= 30){
+                $("#aaaa").html("残り30秒だお");
+            }
+            if(rest <= 28){
+                 $("#aaaa").html("がんばれおにーちゃん");
+            }
         }
         
     } 
@@ -239,11 +245,12 @@
 
     <div id="remain">Remaining time</div>
     <div id="time">Time</div>
+    <div id="aaaa"> </div>
     <button id="btnA">Start</button>  
     <button id="btnB">Stop</button>  
     <button id="btnC">Set</button>  
      <button id="btnD">ラーメン</button> 
     <input type="number" id="minute" value=0 >
-    <input type="number" id="second" value=15 >
+    <input type="number" id="second" value=0 >
 </body>
 </html>

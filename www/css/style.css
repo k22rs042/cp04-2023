@@ -83,5 +83,14 @@
         font-size: 30px;
         position:absolute; top:450px; left:190px; width:80px; height:40px;   
     }
+
+    #aaaa {
+        color: #ff0000;
+        font-size: 30px;
+        text-align: left;
+        position:absolute; top:500px; 
+        left:50%; right:0%;
+        overflow-wrap: break-word;
+    }
     
     input[type=number] {text-align: right;}
